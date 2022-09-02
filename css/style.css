@@ -96,12 +96,21 @@ body {
 }
 .contacts-header__item {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contacts-header__icon {
   display: flex;
-  padding: 15px;
+  width: 68px;
+  height: 68px;
+  border: 1px solid #ffb342;
+  border-radius: 100%;
   justify-content: center;
+  background-color: #ffb342;
   align-items: center;
+}
+.contacts-header__text {
+  padding-left: 10px;
 }
 .contacts-header__title {
   font-family: "Mulish";
@@ -123,7 +132,7 @@ body {
 }
 
 .menu-header {
-  background-color: #FFB342;
+  background-color: #ffb342;
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
@@ -145,7 +154,7 @@ body {
   min-width: 300px;
   margin: 15px 0;
   text-align: center;
-  background-color: #1C2752;
+  background-color: #1c2752;
   color: white;
 }
 .menu-header__input::-moz-placeholder {
@@ -156,4 +165,42 @@ body {
 }
 .menu-header__input::placeholder {
   color: white;
+}
+
+.main__img {
+  background-image: url(/img/main.jpg);
+  max-width: 1440px;
+  max-height: 815px;
+  margin: 0 auto;
+  display: block;
+}
+.main__title {
+  padding: 260px 55% 0px 0px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+  color: white;
+}
+.main__subtitle {
+  display: inline-block;
+  margin-top: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+  color: white;
+}
+.main__button {
+  background-color: #ffb342;
+  border: 1px solid inherit;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 40px 20px 40px;
+  color: white;
+  margin-bottom: 240px;
 }
