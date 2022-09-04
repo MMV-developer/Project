@@ -328,9 +328,11 @@ body {
 
 .card-service {
   padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .card-service__title {
-  margin-bottom: 10px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -341,7 +343,6 @@ body {
   color: #ffb342;
 }
 .card-service__text {
-  margin-bottom: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -352,6 +353,7 @@ body {
   opacity: 0.7;
 }
 .card-service__link {
+  margin-top: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

@@ -371,12 +371,14 @@ body {
 }
 .card-service {
   padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   // .card-service__icon
   &__icon {
   }
   // .card-service__title
   &__title {
-    margin-bottom: 10px;
     font-family: "Mulish";
     font-style: normal;
     font-weight: 400;
@@ -387,8 +389,7 @@ body {
     color: #ffb342;
   }
   // .card-service__text
-  &__text {
-    margin-bottom: 20px;
+  &__text {  
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -400,6 +401,7 @@ body {
   }
   // .card-service__link
   &__link {
+    margin-top: 20px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
