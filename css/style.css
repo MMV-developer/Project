@@ -165,30 +165,26 @@ body {
 }
 .menu-header__item:hover {
   color: white;
+  transition: all 0.3s ease 0s;
 }
-.menu-header__input {
-  max-width: 300px;
+.menu-header__whatsapp {
   display: flex;
-  justify-content: center;
+  color: #222222;
+  font-size: 19px;
+  padding-right: 20px;
   align-items: center;
-  flex: 1 1 auto;
-  text-align: center;
-  background-color: #1c2752;
-  color: white;
-  height: 100%;
-  min-height: 68px;
 }
-.menu-header__input::-moz-placeholder {
+.menu-header__whatsapp:hover {
   color: white;
-  opacity: 0.5;
+  transition: all 0.3s ease 0s;
 }
-.menu-header__input:-ms-input-placeholder {
-  color: white;
-  opacity: 0.5;
-}
-.menu-header__input::placeholder {
-  color: white;
-  opacity: 0.5;
+.menu-header__whatsapp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  background: url(/img/whatsapp-icon.svg) no-repeat;
 }
 
 .main {
@@ -223,6 +219,10 @@ body {
   padding: 20px 40px 20px 40px;
   color: white;
   margin-bottom: 180px;
+}
+.main__button:hover {
+  color: #1c2752;
+  transition: all 0.3s ease 0s;
 }
 
 .welcome {
@@ -303,7 +303,7 @@ body {
   text-align: center;
   letter-spacing: 0.36px;
   color: #1c2752;
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px;
 }
 .services__text {
   font-family: "Inter";
@@ -314,6 +314,7 @@ body {
   text-align: center;
   letter-spacing: 0.36px;
   color: #7e7e7e;
+  margin-bottom: 10px;
 }
 .services__cards {
   display: flex;
@@ -361,4 +362,33 @@ body {
   line-height: 1.5;
   letter-spacing: 0.36px;
   color: #ffffff;
+}
+
+.projects__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #1c2752;
+  margin: 40px 0px;
+}
+.projects__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-project {
+  flex: 1 1 33.333%;
+  padding: 10px;
+  max-width: 400px;
+  max-height: 400px;
+}
+.card-project__img {
+  max-width: 380px;
+  max-height: 285px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
