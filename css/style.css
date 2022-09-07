@@ -389,6 +389,6 @@ body {
 .card-project__img {
   max-width: 380px;
   max-height: 285px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
