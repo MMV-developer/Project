@@ -52,6 +52,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 .wrapper {
   overflow: hidden;
@@ -68,6 +69,8 @@ body {
 }
 
 // ---------------------------header-----------------------------
+
+
 
 .wrapper {
 }
@@ -423,8 +426,7 @@ body {
 
 // ------------------------------projects--------------------------
 
-.section {
-}
+
 .projects {
   // .projects__container
   &__container {
@@ -458,9 +460,5 @@ body {
     max-width: 380px;
     max-height: 285px;
     object-fit: fill;
-
-  }
-  // .card-project__text
-  &__text {
   }
 }
