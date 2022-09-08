@@ -269,6 +269,7 @@ body {
 
   // .welcome__img
   &__img {
+    object-fit: cover;
   }
   // .welcome__info
   &__info {
@@ -286,7 +287,7 @@ body {
   }
   // .welcome__text
   &__text {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -321,12 +322,16 @@ body {
     & span {
       font-size: 80px;
       color: #ffb342;
-      margin-bottom: 16px;
+      margin: 16px;
     }
     & p {
-      max-width: 112px;
+      text-transform:uppercase;
+      max-width: 150px;
       color: #1c2752;
       font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      text-align: center;
     }
   }
   // .stat-welcome__list
@@ -335,10 +340,11 @@ body {
   }
   // .stat-welcome__item
   &__item {
+    
     opacity: 0.5;
-    &::before {
-      content: "- ";
-    }
+    // &::before {
+    //   content: "- ";
+    // }
     &:not(:last-child) {
       margin-bottom: 15px;
     }
@@ -361,7 +367,7 @@ body {
     text-align: center;
     letter-spacing: 0.36px;
     color: #1c2752;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
   }
   // .services__text
   &__text {

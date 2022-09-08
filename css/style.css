@@ -241,6 +241,10 @@ body {
   gap: 50px;
   align-items: center;
 }
+.welcome__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .welcome__title {
   font-family: "Mulish";
   font-style: normal;
@@ -252,7 +256,7 @@ body {
   margin-bottom: 20px;
 }
 .welcome__text {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -282,21 +286,22 @@ body {
 .stat-welcome__years span {
   font-size: 80px;
   color: #ffb342;
-  margin-bottom: 16px;
+  margin: 16px;
 }
 .stat-welcome__years p {
-  max-width: 112px;
+  text-transform: uppercase;
+  max-width: 150px;
   color: #1c2752;
   font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
 }
 .stat-welcome__list {
   flex: 1 1 auto;
 }
 .stat-welcome__item {
   opacity: 0.5;
-}
-.stat-welcome__item::before {
-  content: "- ";
 }
 .stat-welcome__item:not(:last-child) {
   margin-bottom: 15px;
@@ -311,7 +316,7 @@ body {
   text-align: center;
   letter-spacing: 0.36px;
   color: #1c2752;
-  margin: 40px 0px;
+  margin: 40px 0px 0px 0px;
 }
 .services__text {
   font-family: "Inter";
