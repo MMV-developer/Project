@@ -270,7 +270,7 @@ body {
   align-items: center;
 }
 .stat-welcome__years {
-  background: #f4f4f4;
+  background: inherit;
   width: 200px;
   height: 220px;
   text-align: center;
