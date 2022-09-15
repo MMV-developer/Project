@@ -522,5 +522,5 @@ body {
   height: 30px;
   display: inline-block;
   align-items: center;
-  background: url(/img/call.svg) no-repeat left;
+  background: url(./img/call.svg) no-repeat left;
 }
